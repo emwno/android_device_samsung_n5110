@@ -21,5 +21,8 @@ LOCAL_PATH := device/samsung/n5110
 # Overlays
 
 # Gps
+PRODUCT_COPY_FILES += \
+    device/samsung/n8013/configs/gps.conf:system/etc/gps.conf \
+    device/samsung/n8013/configs/gps.xml:system/etc/gps.xml
 
 # Audio
